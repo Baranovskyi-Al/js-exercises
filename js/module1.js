@@ -226,6 +226,11 @@
 
 // ------------------Exercise #22
 
+// function checkIfCanAccessContent(subType) {
+//   const canAccessContent = subType === "pro" || subType === "vip"; // Change this line
+//   return canAccessContent;
+// }
+
 // ------------------Exercise #23
 
 // ------------------Exercise #24
