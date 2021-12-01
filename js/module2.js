@@ -298,3 +298,23 @@
 // const c = 11 % 4;
 // const d = 12 % 7;
 // const e = 8 % 3;
+
+// ------------------Exercise #29
+
+function getEvenNumbers(start, end) {
+  // Change code below this line
+  const evenNumbers = [];
+  for (let i = start; i <= end; i += 1) {
+    if (i % 2 === 0) {
+      evenNumbers.push(i);
+    }
+  }
+  return evenNumbers;
+  // Change code above this line
+}
+
+// ------------------Exercise #30
+
+// ------------------Exercise #31
+
+// ------------------Exercise #32
