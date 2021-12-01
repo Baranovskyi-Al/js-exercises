@@ -301,20 +301,57 @@
 
 // ------------------Exercise #29
 
-function getEvenNumbers(start, end) {
-  // Change code below this line
-  const evenNumbers = [];
-  for (let i = start; i <= end; i += 1) {
-    if (i % 2 === 0) {
-      evenNumbers.push(i);
-    }
-  }
-  return evenNumbers;
-  // Change code above this line
-}
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//   const evenNumbers = [];
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//       evenNumbers.push(i);
+//     }
+//   }
+//   return evenNumbers;
+//   // Change code above this line
+// }
 
 // ------------------Exercise #30
 
+// const start = 6;
+// const end = 27;
+// let number;
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+//   if (number === 10) {
+//     break;
+//   }
+// }
 // ------------------Exercise #31
 
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let number;
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       number = i;
+//       return number;
+//     }
+//   }
+//   // Change code above this line
+// }
+
 // ------------------Exercise #32
+
+// function includes(array, value) {
+//   // Change code below this line
+//   let result = false;
+//   for (const element of array) {
+//     if (element === value) {
+//       result = true;
+//     }
+//   }
+//   return result;
+//   // Change code above this line
+// }
