@@ -331,16 +331,87 @@
 
 // ------------------Exercise #29
 
+// function getShippingCost(country) {
+//   let message = "Sorry, there is no delivery to your country";
+//   // Change code below this line
+//   switch (country) {
+//     case "Australia":
+//       message = "Shipping to Australia will cost 170 credits";
+//       break;
+
+//     case "China":
+//       message = "Shipping to China will cost 100 credits";
+//       break;
+//     case "Chile":
+//       message = "Shipping to Chile will cost 250 credits";
+//       break;
+//     case "Jamaica":
+//       message = "Shipping to Jamaica will cost 120 credits";
+//       break;
+//   }
+//   // Change code above this line
+//   return message;
+// }
+
 // ------------------Exercise #30
 
-// ------------------Exercise #31
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`; // Change this line
+//   return message;
+// }
 
 // ------------------Exercise #31
+
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopicLength -1];
+// // Change code above this line
+
+// ------------------Exercise #31
+
+// function getSubstring(string, length) {
+//   const substring = string.slice(0, length); // Change this line
+//   return substring;
+// }
 
 // ------------------Exercise #33
 
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   if (message.length <= maxLength) {
+//     result = message.slice(0, maxLength);
+//   } else {
+//     result = message.slice(0, maxLength) + "...";
+//   }
+//   /// Change code above this line
+//   return result;
+// }
+
 // ------------------Exercise #34
+
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase(); // Change this line
+//   return normalizedInput;
+// }
 
 // ------------------Exercise #35
 
+// function checkForName(fullName, name) {
+//   const result = fullName.includes(name); // Change this line
+//   return result;
+// }
+
 // ------------------Exercise #36
+
+// function checkForSpam(message) {
+//   let result;
+//   // Change code below this line
+//   result =
+//     message.toLowerCase().includes("spam") ||
+//     message.toLowerCase().includes("sale");
+//   // Change code above this line
+//   return result;
+// }
