@@ -233,15 +233,101 @@
 
 // ------------------Exercise #23
 
+// function isNumberNotInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end;
+//   const isNotInRange = !isInRange; // Change this line
+//   return isNotInRange;
+// }
+
 // ------------------Exercise #24
+
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+//   // Change code below this line
+//   if (totalSpent >= 50000) {
+//     discount = GOLD_DISCOUNT;
+//   } else if (totalSpent >= 20000) {
+//     discount = SILVER_DISCOUNT;
+//   } else if (totalSpent >= 5000) {
+//     discount = BRONZE_DISCOUNT;
+//   } else {
+//     discount = BASE_DISCOUNT;
+//   }
+//   // Change code above this line
+//   return discount;
+// }
 
 // ------------------Exercise #25
 
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Change code below this line
+//   message =
+//     ordered > available
+//       ? "Not enough goods in stock!"
+//       : "The order is accepted, our manager will contact you";
+//   // Change code above this line
+//   return message;
+// }
+
 // ------------------Exercise #26
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+//   // Change code below this line
+//   message =
+//     password === ADMIN_PASSWORD
+//       ? "Access is allowed"
+//       : "Access denied, wrong password!";
+//   // Change code above this line
+//   return message;
+// }
 
 // ------------------Exercise #27
 
+// function getSubscriptionPrice(type) {
+//   let price;
+//   // Change code below this line
+//   switch (
+//     type // Change this line
+//   ) {
+//     case "starter": // Change this line
+//       price = 0; // Change this line
+//       break;
+//     case "professional": // Change this line
+//       price = 20; // Change this line
+//       break;
+//     case "organization": // Change this line
+//       price = 50; // Change this line
+//       break;
+//   }
+//   // Change code above this line
+//   return price;
+// }
+
 // ------------------Exercise #28
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message = "Access denied, wrong password!";
+//   // Change code below this line
+//   switch (password) {
+//     case null:
+//       message = "Canceled by user!";
+//       break;
+
+//     case ADMIN_PASSWORD:
+//       message = "Welcome!";
+//       break;
+//   }
+//   // Change code above this line
+//   return message;
+// }
 
 // ------------------Exercise #29
 
