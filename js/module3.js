@@ -439,15 +439,77 @@
 
 // ------------------Exercise #26
 
+// // Change code below this line
+// function calculateMeanTemperature(forecast) {
+//   const {
+//     today: { low: todayLow, high: todayHigh },
+//     tomorrow: { low: tomorrowLow, high: tomorrowHigh },
+//   } = forecast;
+//   // Change code above this line
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
+
 // ------------------Exercise #27
+
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// // Change code below this line
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
 
 // ------------------Exercise #28
 
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// // Change code below this line
+// const allScores = [
+//   ...firstGroupScores,
+//   ...secondGroupScores,
+//   ...thirdGroupScores,
+// ];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
 // ------------------Exercise #29
+
+// const defaultSettings = {
+//   theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// // Change code below this line
+// const finalSettings = { ...defaultSettings, ...overrideSettings };
 
 // ------------------Exercise #30
 
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   // Change code below this line
+//   const allData = { category, priority, ...data, completed };
+//   return allData;
+//   // Change code above this line
+// }
+
 // ------------------Exercise #31
+
+// // Change code below this line
+// function add(...args) {
+//   let sum = 0;
+//   for (const elements of args){
+// 	  sum += elements;
+//   }
+//   return sum;
+//   // Change code above this line
+// }
 
 // ------------------Exercise #32
 
