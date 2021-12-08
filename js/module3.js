@@ -513,20 +513,120 @@
 
 // ------------------Exercise #32
 
+// // Change code below this line
+// let firstParam;
+// function addOverNum(firstParam, ...args) {
+//   let total = 0;
+//   for (const arg of args) {
+//     if (firstParam < arg) {
+//       total += arg;
+//     }
+//   }
+//   return total;
+//   // Change code above this line
+// }
+
 // ------------------Exercise #33
+
+// // Change code below this line
+// const firstArray = [];
+// function findMatches(firstArray, ...args) {
+//   const matches = []; // Don't change this line
+//   for (const elements of args) {
+//     if (firstArray.includes(elements)) {
+//       matches.push(elements);
+//     }
+//   }
+//   // Change code above this line
+//   return matches;
+// }
 
 // ------------------Exercise #34
 
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`;
+//   },
+//   updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`;
+//   },
+//   // Change code above this line
+// };
+
 // ------------------Exercise #35
+
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//   updateBook(oldName, newName) {
+//     // Change code below this line
+//     console.log(oldName, newName);
+//     const indexBook = this.books.indexOf(oldName);
+//     console.log(indexBook);
+//     this.books.splice(indexBook, 1, newName);
+//     // Change code above this line
+//   },
+// };
 
 // ------------------Exercise #36
 
+// const atTheOldToad = {
+//   // Change code below this line
+//   potions: [],
+//   // Change code above this line
+// };
+
 // ------------------Exercise #37
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   // Change code above this line
+// };
 
 // ------------------Exercise #38
 
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   addPotion(potionName) {
+//     // Change code below this line
+//     this.potions.push(potionName);
+//     // Change code above this line
+//   },
+// };
+
 // ------------------Exercise #39
 
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//     // Change code below this line
+//     const potionIndex = this.potions.indexOf(potionName);
+//     this.potions.splice(potionIndex, 1);
+//     // Change code above this line
+//   },
+// };
+
 // ------------------Exercise #40
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   updatePotionName(oldName, newName) {
+//     // Change code below this line
+//     const potionIndex = this.potions.indexOf(oldName);
+//     this.potions.splice(potionIndex, 1, newName);
+//     // Change code above this line
+//   },
+// };
 
 // ------------------Exercise #41
