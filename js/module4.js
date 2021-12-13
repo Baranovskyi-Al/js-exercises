@@ -228,7 +228,22 @@
 
 // ------------------Exercise #17
 
+// // Change code below this line
+// const getUserNames = (users) => {
+//   const userNames = users.map((user) => user.name);
+//   return userNames;
+// };
+// // Change code above this line
+
 // ------------------Exercise #18
+
+// // Change code below this line
+// const getUserEmails = (users) => {
+//   const userEmails = users.map((user) => user.email);
+//   return userEmails;
+// };
+// // Change code above this line
+
 // ------------------Exercise #19
 // ------------------Exercise #20
 // ------------------Exercise #21
