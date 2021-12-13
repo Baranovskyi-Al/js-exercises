@@ -112,14 +112,122 @@
 // };
 
 // ------------------Exercise #9
+
+// // Change code below this line
+// const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+// // Change code above this line
+
 // ------------------Exercise #10
+
+// // Change code below this line
+// const calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+//   orderedItems.forEach((item) => {
+//     totalPrice += item;
+//   });
+//   return totalPrice;
+// };
+// // Change code above this line
+
 // ------------------Exercise #11
+
+// // Change code below this line
+// const filterArray = (numbers, value) => {
+//   const filteredNumbers = [];
+//   numbers.forEach((number) => {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+//   // Change code above this line
+//   return filteredNumbers;
+// };
+
 // ------------------Exercise #12
+
+// // Change code below this line
+// const getCommonElements = (firstArray, secondArray) => {
+//   const commonElements = [];
+
+//   firstArray.forEach((element) => {
+//     if (secondArray.includes(element)) {
+//       commonElements.push(element);
+//     }
+//   });
+//   // Change code above this line
+//   return commonElements;
+// };
+
 // ------------------Exercise #13
+
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//   const newArray = [];
+//   numbers.forEach((element) => {
+//     if (element % 2 === 0) {
+//       newArray.push(element + value);
+//     } else {
+//       newArray.push(element);
+//     }
+//   });
+//   return newArray;
+//   // Change code above this line
+// }
+
 // ------------------Exercise #14
+
+// const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+// // Change code below this line
+// const planetsLengths = planets.map((planet) => planet.length);
+
 // ------------------Exercise #15
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+// // Change code below this line
+// const titles = books.map((book) => book.title);
+
 // ------------------Exercise #16
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     genres: ["adventure", "history"],
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     genres: ["fiction"],
+//   },
+//   {
+//     title: "Redder Than Blood",
+//     author: "Tanith Lee",
+//     genres: ["horror", "mysticism"],
+//   },
+// ];
+// // Change code below this line
+// const genres = books.flatMap((book) => book.genres);
+
 // ------------------Exercise #17
+
 // ------------------Exercise #18
 // ------------------Exercise #19
 // ------------------Exercise #20
