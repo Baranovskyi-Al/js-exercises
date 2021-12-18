@@ -486,14 +486,187 @@
 // // Change code above this line
 
 // ------------------Exercise #37
+
+// // Change code below this line
+// const getTotalFriendCount = (users) => {
+//   const totalFriendCount = users.reduce((total, user) => {
+//     return total + user.friends.length;
+//   }, 0);
+//   return totalFriendCount;
+// };
+// // Change code above this line
+
 // ------------------Exercise #38
+
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+// ];
+// // Change code below this line
+// const ascendingReleaseDates = [...releaseDates].sort();
+// const alphabeticalAuthors = [...authors].sort();
+
 // ------------------Exercise #39
+
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// // Change code below this line
+// const ascendingReleaseDates = [...releaseDates].sort((a, b) => a - b);
+// const descendingReleaseDates = [...releaseDates].sort((a, b) => b - a);
+
 // ------------------Exercise #40
+
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+//   "Howard Lovecraft",
+// ];
+// // Change code below this line
+// const authorsInAlphabetOrder = [...authors].sort((a, b) => a.localeCompare(b));
+// const authorsInReversedOrder = [...authors].sort((a, b) => b.localeCompare(a));
+
 // ------------------Exercise #41
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+// // Change code below this line
+// const sortedByAuthorName = [...books].sort((firstBook, secondBook) =>
+//   firstBook.author.localeCompare(secondBook.author)
+// );
+// const sortedByReversedAuthorName = [...books].sort((firstBook, secondBook) =>
+//   secondBook.author.localeCompare(firstBook.author)
+// );
+// const sortedByAscendingRating = [...books].sort(
+//   (firstBook, secondBook) => firstBook.rating - secondBook.rating
+// );
+// const sortedByDescentingRating = [...books].sort(
+//   (firstBook, secondBook) => secondBook.rating - firstBook.rating
+// );
+
 // ------------------Exercise #42
+
+// // Change code below this line
+// const sortByAscendingBalance = (users) => {
+//   const ascendingBalance = [...users].sort(
+//     (firstUser, secondUser) => firstUser.balance - secondUser.balance
+//   );
+//   return ascendingBalance;
+// };
+// // Change code above this line
+
 // ------------------Exercise #43
+
+// // Change code below this line
+// const sortByDescendingFriendCount = (users) => {
+//   const descendingFriendCount = [...users].sort(
+//     (firstUser, secondUser) =>
+//       secondUser.friends.length - firstUser.friends.length
+//   );
+//   return descendingFriendCount;
+// };
+// // Change code above this line
+
 // ------------------Exercise #44
+
+// // Change code below this line
+// const sortByName = (users) => {
+//   const byName = [...users].sort((firstUser, secondUser) =>
+//     firstUser.name.localeCompare(secondUser.name)
+//   );
+//   return byName;
+// };
+// // Change code above this line
+
 // ------------------Exercise #45
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   {
+//     title: "The Dreams in the Witch House",
+//     author: "Howard Lovecraft",
+//     rating: 8.67,
+//   },
+// ];
+// const MIN_BOOK_RATING = 8;
+// // Change code below this line
+// const names = [...books]
+//   .sort((firstBook, secondBook) =>
+//     firstBook.author.localeCompare(secondBook.author)
+//   )
+//   .filter((book) => book.rating > MIN_BOOK_RATING)
+//   .map((book) => book.author);
+
 // ------------------Exercise #46
+
+// // Change code below this line
+// const getNamesSortedByFriendCount = (users) => {
+//   const namesSortedByFriendCount = [...users]
+//     .sort(
+//       (firstUser, secondUser) =>
+//         firstUser.friends.length - secondUser.friends.length
+//     )
+//     .map((user) => user.name);
+//   return namesSortedByFriendCount;
+// };
+// // Change code above this line
+
 // ------------------Exercise #47
+
+// // Change code below this line
+// const getSortedFriends = (users) => {
+//   const sortedFriends = users
+//     .flatMap((user) => user.friends)
+//     .filter((user, index, array) => array.indexOf(user) === index)
+//     .sort((a, b) => a.localeCompare(b));
+//   return sortedFriends;
+// };
+// // Change code above this line
+
 // ------------------Exercise #48
+
+// // Change code below this line
+// const getTotalBalanceByGender = (users, gender) => {
+//   const totalBalanceByGender = users
+//     .filter((user) => user.gender === gender)
+//     .reduce((total, user) => {
+//       return total + user.balance;
+//     }, 0);
+//   return totalBalanceByGender;
+// };
+// // Change code above this line
